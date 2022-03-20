@@ -7,12 +7,20 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <a href="https://www.freecodecamp.org/legray" target="_blank">
+        <a
+          href="https://www.freecodecamp.org/legray"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaFreeCodeCamp style={{ color: "blue", fontSize: "40px" }} />
         </a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/santchou" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/santchou"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
       </div>

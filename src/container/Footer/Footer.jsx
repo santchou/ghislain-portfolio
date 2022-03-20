@@ -142,8 +142,16 @@ const Footer = () => {
           </button>
         </div>
       ) : (
-        <div>
-          <h3 className="head-text">Thank you for message, i contact you.</h3>
+        <div
+          style={{
+            backgroundColor: "blue",
+            padding: "30px 50px",
+            borderRadius: "10px",
+          }}
+        >
+          <h3 className="head-text">
+            Thank you for your message, i contact you.
+          </h3>
         </div>
       )}
     </>
