@@ -3,11 +3,24 @@ import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 
+import { useSelector, useDispatch } from "react-redux";
+
+import { navigateStatus } from "../../redux/statusSlice";
+
 import "./Navbar.scss";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [activeItem, setActiveItem] = useState("home");
+
+  const storeItem = useSelector((state) => state.item);
+  const status = useSelector((state) => state.status);
+  const dispatch = useDispatch();
+
+  if (status.navigate) {
+    setActiveItem(storeItem.navigateItem);
+    dispatch(navigateStatus());
+  }
 
   const handleClick = (item) => {
     setActiveItem(item);
