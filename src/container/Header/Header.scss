@@ -1,7 +1,6 @@
 #home {
   position: relative;
-
-  background: url("../../assets/bg.jpg");
+  background-color: var(--black-color);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,7 +184,6 @@
   position: relative;
 
   div {
-    color: var(--gray-color);
     font-size: 2rem;
     font-weight: 700;
     background-color: var(--white-color);

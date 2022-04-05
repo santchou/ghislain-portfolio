@@ -10,7 +10,6 @@ const App = () => {
     <div className="app">
       <Navbar />
       <Header />
-
       <Work />
       <Skills />
       <Testimonial />
