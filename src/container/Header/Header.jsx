@@ -17,11 +17,26 @@ const Header = () => {
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
             <img
-              style={{ width: "100px", height: "100px", objectFit: "contain" }}
+              style={{
+                width: "100px",
+                height: "100px",
+                objectFit: "contain",
+                borderRadius: "100%",
+              }}
+              src={images.ghislain_icon}
+              alt="smoji"
+            />
+            <img
+              style={{
+                width: "40px",
+                height: "40px",
+                objectFit: "contain",
+                borderRadius: "100%",
+              }}
               src={images.smoji}
               alt="smoji"
             />
-            <div style={{ marginLeft: 20 }}>
+            <div style={{ marginLeft: 10 }}>
               <p className="p-text">Hi, I am</p>
               <h1 className="head-text p-text">Ghislain</h1>
             </div>

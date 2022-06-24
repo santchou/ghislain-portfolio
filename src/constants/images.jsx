@@ -37,6 +37,7 @@ import spotify from "../assets/spotify.png";
 import express from "../assets/expressjs.png";
 import mongoDB from "../assets/mongoDB.png";
 import smoji from "../assets/smoji.PNG";
+import ghislain_icon from "../assets/ghislan_icon.JPG";
 
 export default {
   email,
@@ -75,4 +76,5 @@ export default {
   express,
   mongoDB,
   smoji,
+  ghislain_icon,
 };
