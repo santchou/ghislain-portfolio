@@ -43,7 +43,6 @@ const Work = () => {
       <div className="app__work-filter">
         {[
           "Node JS",
-          "React JS",
           "React JS & Node JS",
           "React JS & Firebase",
           "Next JS",
